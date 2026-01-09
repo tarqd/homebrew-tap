@@ -1,8 +1,8 @@
 class Mdcopy < Formula
   desc "Convert markdown to clipboard with rich text, HTML, and RTF formats"
   homepage "https://github.com/tarqd/mdcopy"
-  license "MIT"
   version "0.1.1"
+  license "MIT"
 
   on_macos do
     on_arm do
