@@ -5,23 +5,23 @@ class Mdcopy < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/tarqd/mdcopy/releases/download/v0.1.1/mdcopy-aarch64-apple-darwin.tar.gz"
-      sha256 "d64e4b6ea0f4674856f454a34aeee098c540312e98acb79209e7d816f9e89d61"
+      url "https://github.com/tarqd/mdcopy/releases/download/v0.2.0/mdcopy-aarch64-apple-darwin.tar.gz"
+      sha256 "0097adc5f14616ee07741c948e26759ab778abbe4cef228fe4cc1e078deafce5"
     end
     on_intel do
-      url "https://github.com/tarqd/mdcopy/releases/download/v0.1.1/mdcopy-x86_64-apple-darwin.tar.gz"
-      sha256 "43776d2251303212e88d0701fba7de328246a95d46648851e58beaccf8c16ea9"
+      url "https://github.com/tarqd/mdcopy/releases/download/v0.2.0/mdcopy-x86_64-apple-darwin.tar.gz"
+      sha256 "67bf445a447bda3d73c1d569263b95ee61b74e8ff08d25ccb483b13c701b7615"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tarqd/mdcopy/releases/download/v0.1.1/mdcopy-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "66bb7d3a083058cbddc9b602f5ee4ec86ff3144780fd7e677395c9dd3671396b"
+      url "https://github.com/tarqd/mdcopy/releases/download/v0.2.0/mdcopy-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c78e08677eae4525ff8d75261a73d30361e1f49fe6dbf3ea4e202287b4dc43a7"
     end
     on_intel do
-      url "https://github.com/tarqd/mdcopy/releases/download/v0.1.1/mdcopy-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "97d37a870b42552c53562e1da61c87b5070a340f856f9a72d8d21134341c34cb"
+      url "https://github.com/tarqd/mdcopy/releases/download/v0.2.0/mdcopy-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8fe11bfcee8c6f00663788c417041f926a48436a1a998cef45c134aef54ae718"
     end
   end
 
