@@ -6,11 +6,11 @@ class Claudio < Formula
   on_macos do
     on_arm do
       url "https://github.com/tarqd/claudio/releases/download/v0.1.1/claudio-aarch64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "3f38d00780acaf52ed8d381c5bfead8a9298d3456a768b86d984796ca9dd1f57"
     end
     on_intel do
       url "https://github.com/tarqd/claudio/releases/download/v0.1.1/claudio-x86_64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "194fd550ce0136bc1c34e23d85924a6b63c24a38d868e409b6ed74d049ca7618"
     end
   end
 
